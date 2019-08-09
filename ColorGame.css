@@ -1,5 +1,6 @@
 body{
     background-color: #232323;
+    margin: 0 auto;
 }
 
 .square{
@@ -19,6 +20,7 @@ body{
 h1{
     color: white;
     text-align: center;
+    background-color: steelblue;
 }
 
 #stripe{
@@ -29,5 +31,16 @@ h1{
 }
 
 .selected{
-    background-color: aqua;
+    background-color: steelblue;
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
+
+button:hover{
+    background-color: steelblue;
+    color: white;
 }

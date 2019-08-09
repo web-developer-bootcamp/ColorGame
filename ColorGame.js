@@ -17,6 +17,7 @@ hardButton.addEventListener("click", function () {
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
     for (var i = 0; i < squares.length; i++) {
+        h1.style.background = "steelblue";
         squares[i].style.background = colors[i];
         squares[i].style.display = "block";
     }
@@ -30,6 +31,7 @@ easyButton.addEventListener("click", function () {
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
     for (var i = 0; i < squares.length; i++) {
+        h1.style.background = "steelblue";
         if (colors[i]) {
             squares[i].style.background = colors[i];
         } else {
@@ -48,6 +50,7 @@ resetButton.addEventListener("click", function () {
     //change colors of squares
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.background = colors[i];
+        h1.style.background = "steelblue";
     }
 });
 
